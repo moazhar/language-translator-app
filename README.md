@@ -39,7 +39,7 @@ A RESTful service that translates a text from one language to another and respon
   
 ### API Documentation
 - Start the Node.JS server by running the command **npm start** on the terminal
-- Open any browser and enter URL **http://localhost:port/api-docs**
+- Open any browser and enter URL **http://localhost:3009/api-docs**
 - You will be redirected to API documentation page
 
 ### Improvement
