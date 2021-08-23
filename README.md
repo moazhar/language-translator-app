@@ -42,6 +42,6 @@ A RESTful service that translates a text from one language to another and respon
 - Open any browser and enter URL **http://localhost:3009/api-docs**
 - You will be redirected to API documentation page
 
-### Improvement
+### Improvements
 - Smart caching can be enhanced by storing only regional/country specific languages rather than storing all the available languages.
 - Performance of the application can be improved by introducing load balancing using inbuilt Node module **Cluster.js**
