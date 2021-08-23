@@ -24,7 +24,7 @@ A RESTful service that translates a text from one language to another and respon
 - For smart caching the specified text is translated into other languages as well and stores in db
 
 ### SETUP & RUN:
-- Installation needed: Node.JS, Redis, GIT
+- Installation required: Node.JS, Redis, GIT
 - Download Node.JS, git and Redis database in you're local machine
 - Start redis server by executing the **redis-server.exe** and **redis-cli.exe** files on the command prompt (Windows)
 - Pull the code from gitHub repository
