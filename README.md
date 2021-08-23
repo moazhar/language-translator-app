@@ -16,7 +16,7 @@ A RESTful service that translates a text from one language to another and respon
 - **Swagger** is used for API documentation
 
 ### Redis Database Schema
-- As redis stores the data as key value pair below is the format in which the data gets store
+- As redis stores the data as key value pair below is the format in which the data gets stored
 - **"key":"value"** 
 - **key** --> input text
 - **value** --> Array of translated languages
