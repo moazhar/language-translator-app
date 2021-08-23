@@ -24,10 +24,12 @@ A RESTful service that translates a text from one language to another and respon
 - For smart caching the specified text is translated into other languages as well and stores in db
 
 ### SETUP & RUN:
-- Download Redis database in you're local machine
+- Installation needed: Node.JS, Redis, GIT
+- Download Node.JS, git and Redis database in you're local machine
 - Start redis server by executing the **redis-server.exe** and **redis-cli.exe** files on the command prompt (Windows)
 - Pull the code from gitHub repository
-- Open the code in any of your favourate editor.
+- Open the code in any of your favourite editor.
+- Execute the command **npm install** which will download all the required packages to run the project from NPM.
 - Create a **.env** file and add the Google Cloud Service credentials and Port details
 - Start the Node.JS server by running the command **npm start** on the terminal
 - Server is ready to recieve the requests at provided port
@@ -37,6 +39,9 @@ A RESTful service that translates a text from one language to another and respon
   
 ### API Documentation
 - Start the Node.JS server by running the command **npm start** on the terminal
-- Open any browser and enter URL **http://localhost:${port}/api-docs**
+- Open any browser and enter URL **http://localhost:port/api-docs**
 - You will be redirected to API documentation page
 
+### Improvement
+- Smart caching can be enhanced by storing only regional/country specific languages rather than storing all the available languages.
+- Performance of the application can be improved by introducing load balancing using inbuilt Node module **Cluster.js**
